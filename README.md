@@ -2,6 +2,7 @@
 A simple jQuery based preloader, easy to understand and include in you web project...
 
 Steps to include the preloader in your project..
+
 1) Add the basicpreloader.js into your html or any web file of your choice along      
     with the jQuery.js file or add the jquery CDN link in the source(src).
     Eg : <script src="jQuery.js"></script>
