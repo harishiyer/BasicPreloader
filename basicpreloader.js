@@ -18,12 +18,12 @@ $(document).ready(function(){
 	$("#back").css("margin","0");
 	$("#back").css("opacity","0.65");
 	$("#back").css("position","fixed");
-<<<<<<< HEAD
+
 	$("#back").css("background-image","url(tracks.jpg)");//You can change the background image to whatever you like... Low image sizes would be the best
-=======
+
 	$("#back").css("background-image","url(http://thewowstyle.com/wp-content/uploads/2015/01/Black-and-White-Photography-Wallpaper.jpg)");//You can change the background image to whatever you like. Change the url.. 
 	//Low image sizes would be the best or if you want you can keep a plain background as well by setting the css property background to whatever you like
->>>>>>> 979da829d11915bb08b2c191eaa6fcb007ececf9
+
 	$("#back").css("background-size","100% 100%");
 	$("#back").append("<div id='box' align='center' style='background-color:#00000; width:220px; height:52px;'></div>");
 	
@@ -56,14 +56,8 @@ $(document).ready(function(){
 						 },4500);
 		
 	$( window ).load(function() {
-<<<<<<< HEAD
-	//	$("body").css("overflow","auto");
-  	//	$("#loader").hide(700,function(){$('#loader').remove();});
-=======
 		$("body").css("overflow","auto");
   		$("#loader").hide(700,function(){$('#loader').remove();});
->>>>>>> 979da829d11915bb08b2c191eaa6fcb007ececf9
-	
 	});
 	$(window).resize(function(){	/*Resize event, resizes the content according to window size*/						  
     	heights=jQuery(window).height();
@@ -84,10 +78,4 @@ jQuery.fn.center = function () {
                                                 $(window).scrollLeft()) + "px");
     return this;
 }
-<<<<<<< HEAD
 
-
-	
-=======
-	
->>>>>>> 979da829d11915bb08b2c191eaa6fcb007ececf9
