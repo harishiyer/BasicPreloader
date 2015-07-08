@@ -51,8 +51,8 @@ $(document).ready(function(){
 						 },4500);
 		
 	$( window ).load(function() {
-	//	$("body").css("overflow","auto");
-  	//	$("#loader").hide(700,function(){$('#loader').remove();});
+		$("body").css("overflow","auto");
+  		$("#loader").hide(700,function(){$('#loader').remove();});
 	
 	});
 	$(window).resize(function(){	/*Resize event, resizes the content according to window size*/						  
