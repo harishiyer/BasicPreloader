@@ -18,7 +18,8 @@ $(document).ready(function(){
 	$("#back").css("margin","0");
 	$("#back").css("opacity","0.65");
 	$("#back").css("position","fixed");
-	$("#back").css("background-image","url(http://thewowstyle.com/wp-content/uploads/2015/01/Black-and-White-Photography-Wallpaper.jpg)");//You can change the background image to whatever you like. Change the url.. Low image sizes would be the best
+	$("#back").css("background-image","url(http://thewowstyle.com/wp-content/uploads/2015/01/Black-and-White-Photography-Wallpaper.jpg)");//You can change the background image to whatever you like. Change the url.. 
+	//Low image sizes would be the best or if you want you can keep a plain background as well by setting the css property background to whatever you like
 	$("#back").css("background-size","100% 100%");
 	$("#back").append("<div id='box' align='center' style='background-color:#00000; width:220px; height:52px;'></div>");
 	
